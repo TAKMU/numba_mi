@@ -1,0 +1,19 @@
+[project]
+name = "numba_mi"
+version = "0.1.0"
+description = "Python package to run mutual information using discretization first. Author: Allan Ken Miyazono-Ushijima. email: allan.miyazono@gmail.com"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "polars",
+    "pandas",
+    "numba"
+]
+
+authors = [
+  {name = "Allan Ken Miyazono-Ushijima", email = "allan.miyazono@gmail.com"},
+  ]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
