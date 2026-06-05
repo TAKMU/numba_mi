@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: numba_mi
+Version: 0.1.0
+Summary: Python package to run mutual information using discretization first. Author: Allan Ken Miyazono-Ushijima. email: allan.miyazono@gmail.com
+Author-email: Allan Ken Miyazono-Ushijima <allan.miyazono@gmail.com>
+Requires-Python: >=3.10
+Requires-Dist: numpy
+Requires-Dist: polars
+Requires-Dist: pandas
+Requires-Dist: numba
