@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
-from mi_entropy import create_mi_matrix
-from preprocess import discretize_infotheo, delete_zeroes
+from numba_mi.mi_entropy import create_mi_matrix
+from numba_mi.preprocess import discretize_infotheo, delete_zeroes
 import polars as pl
 from tempfile import TemporaryDirectory
 
