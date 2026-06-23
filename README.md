@@ -47,8 +47,8 @@ This function is used to create a matrix of n x n of Mutual Information (MI). Th
 </ul>
 <li>discretize_infotheo<i>(input_file: str, output_file: str) -> None:</i>
 <ul>
-<li>input_file: str, path to input file (CSV) to discretize the data. It doesn't consider index columns.
-<li>output_file: str, path to output file (CSV)
+<li>input_file: str, path to input file (CSV) to discretize the data. It doesn't consider index columns. It is important to use absolute paths (os.path.abspath()) or temporary directories, as the Rscript runs on numbi_mi directory instead of your actual directory,
+<li>output_file: str, path to output file (CSV) It is important to use absolute paths (os.path.abspath()) or temporary directories, as the Rscript runs on numbi_mi directory instead of your actual directory.
 </ul>
 </ul>
 There is another function that does all the process, making temporary files and deletes them at the end:
