@@ -10,7 +10,7 @@ opt <- parse_args(OptionParser(option_list = option_list))
 iname <- opt$input
 fname <- opt$output
 
-df <- read.table(file = iname, header = TRUE, sep = ",")
+df <- read.table(iname, header = TRUE, sep = ",")
 df_dis <- discretize(df, disc="equalfreq", nbins=NROW(df)^(1/3) )
 write.csv(df_dis, file = fname, )   
 
