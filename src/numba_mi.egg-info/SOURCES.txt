@@ -1,3 +1,5 @@
+LICENSE
+README.md
 pyproject.toml
 src/numba_mi/mi_entropy.py
 src/numba_mi/pipeline.py
